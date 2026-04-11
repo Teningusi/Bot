@@ -6,9 +6,9 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
-    "version": "",
+    "ip": "RapXiecTrungUong.aternos.me",
+    "port": 44623,
+    "version": "1.12.2",
     "try-creative": false
   },
   "position": {
@@ -31,9 +31,9 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "Chào mừng tới Riếc Xạp",
+        "Chào mừng tới Rạp Xiếc",
+        "Chào mừng tới Ráp Xiệt"
       ]
     },
     "chat-log": true,
