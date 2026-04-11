@@ -25,7 +25,7 @@
     },
 
     "anti-afk": {
-      "enabled": true,
+      "enabled": false,
       "sneak": false
     },
 
@@ -44,6 +44,6 @@
 
     "chat-log": false,
     "auto-reconnect": true,
-    "auto-recconect-delay": 1000
+    "auto-recconect-delay": 3000
   }
 }
