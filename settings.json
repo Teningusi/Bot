@@ -1,87 +1,49 @@
 {
-  "name": "AFK Bot",
   "bot-account": {
-    "username": "ConBot",
+    "username": "Bot",
     "password": "",
-    "type": "offline"
+    "type": "mojang"
   },
+
   "server": {
     "ip": "RapXiecTrungUong.aternos.me",
     "port": 44623,
-    "version": "1.21.1",
-    "try-creative": false
+    "version": "1.12.2"
   },
+
   "position": {
-    "enabled": true,
+    "enabled": false,
     "x": 0,
-    "y": 100,
+    "y": 0,
     "z": 0
   },
+
   "utils": {
     "auto-auth": {
-      "enabled": true,
-      "password": "chalol78"
-    },
-    "anti-afk": {
       "enabled": false,
+      "password": ""
+    },
+
+    "anti-afk": {
+      "enabled": true,
       "sneak": false
     },
+
     "chat-messages": {
       "enabled": false,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 60,
+
       "messages": [
-        "Chào mừng tới Riếc Xạp",
-        "Chào mừng tới Rạp Xiếc",
-        "Chào mừng tới Ráp Xiệt"
+        "Tao là bot ",
+        "Đừng quan tâm đến bố mày ",
+        "Để tao yên ",
+        "Visit my Youtube page! (https://youtube.com/@H2N_OFFICIAL)"
       ]
     },
-    "chat-log": true,
+
+    "chat-log": false,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
-  },
-  "movement": {
-    "enabled": true,
-    "circle-walk": {
-      "enabled": true,
-      "radius": 4,
-      "speed": 3000
-    },
-    "look-around": {
-      "enabled": true,
-      "interval": 5000
-    },
-    "random-jump": {
-      "enabled": true,
-      "interval": 10000
-    }
-  },
-  "modules": {
-    "avoidMobs": true,
-    "combat": true,
-    "beds": false,
-    "chat": true,
-    "console-commands": true
-  },
-  "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
-  },
-  "beds": {
-    "pick-up-day": false,
-    "place-night": false
-  },
-  "discord": {
-    "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
-    "events": {
-      "connect": true,
-      "disconnect": true,
-      "chat": false
-    }
-  },
-  "chat": {
-    "respond": true
+    "auto-recconect-delay": 1000
   }
 }
